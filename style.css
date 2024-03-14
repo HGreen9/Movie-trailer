@@ -1,0 +1,29 @@
+/* https://cdn.plyr.io/3.7.8/plyr.css */
+
+:root {
+    /* main UI color */
+    --plyr-color-main: #b53535eb;
+    /* audio controls background */
+    --plyr-video-controls-background: rgba(0, 0, 0, 0.70);
+    /* audio controls color */
+    --plyr-video-control-color: white;
+
+    --plyr-video-control-color-hover: black;
+
+    --plyr-video-progress-buffered-background: silver;
+
+    --plyr-video-range-track-background: #ebdd96;
+    
+    --plyr-font-family: serif;
+    --plyr-font-size-time: 32px;
+
+    --plyr-tooltip-background: #b53535eb;
+    --plyr-tooltip-color: black; 
+
+    --plyr-control-icon-size: 32px;
+}
+
+
+/* #player {
+
+} */
