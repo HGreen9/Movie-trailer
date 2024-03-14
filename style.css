@@ -1,6 +1,7 @@
 /* https://cdn.plyr.io/3.7.8/plyr.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Glitch&family=Shadows+Into+Light&display=swap');
 
 * {
     margin: 0px;
@@ -45,3 +46,39 @@ body {
 div {
     padding-top: 15px;
 }
+
+p {
+margin: 20px;
+margin-bottom: 0px;
+    padding: 15px;
+    background-color: #a7313b;
+    border: 5px black;
+    border-style: double;
+    font-size: 20px;
+    font-family: "Abril Fatface", serif;
+ 
+}
+
+figcaption {
+   font-size: 20px;
+    font-family: "Abril Fatface", serif;
+   }
+
+
+   #cast {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #cast figure {
+    background: #a7313b;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail {
+border: 10px solid #ebdd96;
+}  
