@@ -71,6 +71,27 @@ margin-bottom: 0px;
  
 }
 
+footer {
+    margin: 20px;
+    margin-bottom: 0px;
+        padding: 15px;
+        background-color: #a7313b;
+        border: 5px black;
+        border-style: double;
+        font-size: 20px;
+        font-family: "Abril Fatface", serif;
+    }
+
+    a:link, 
+    a:visited {
+      color: #ebdd96; 
+    }
+
+a:hover, 
+a:active {
+  color: black;
+}
+
 figcaption {
    font-size: 20px;
     font-family: "Abril Fatface", serif;
@@ -102,3 +123,43 @@ figcaption {
 .thumbnail {
 border: 10px solid #ebdd96;
 }  
+
+
+
+
+/* Hide Initial */
+.overlay {
+    opacity: 0;
+    transform: scale(0);
+  }
+  
+  
+  /* Style Full Size Modal (lightbox) Image */
+  body {
+      margin: 0;
+  }
+  
+  .overlay:target {
+    opacity: 1;
+    
+    background: rgba(0, 0, 0, 0.699);
+    height: 100vh;
+    width: 100vw;
+    
+        /* stretch overlay to fill entire screen  */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+      /* vertical and center align with Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+    
+    transform: scale(1);
+    transition:
+        opacity .5s,
+        transform .5s; 
+  }
