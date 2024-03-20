@@ -47,6 +47,18 @@ div {
     padding-top: 15px;
 }
 
+h2 {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+        padding: 15px;
+        background-color: #a7313b;
+        border: 5px black;
+        border-style: double;
+        font-size: 20px;
+        font-family: "Abril Fatface", serif;
+}
+
 p {
 margin: 20px;
 margin-bottom: 0px;
@@ -64,6 +76,11 @@ figcaption {
     font-family: "Abril Fatface", serif;
    }
 
+#bio {
+    display: flex;
+    justify-content: center;
+}
+
 
    #cast {
     display: flex;
@@ -72,7 +89,10 @@ figcaption {
   
   #cast figure {
     background: #a7313b;
+   width: 300px;
     margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     display: flex;
     flex-direction: column;
