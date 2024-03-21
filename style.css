@@ -128,7 +128,10 @@ border: 10px solid #ebdd96;
 
 /* Hide Initial */
 .overlay {
-    display: none;
+    /* hide stuff */
+    height: 0;
+    min-height: 0;
+
     opacity: 0;
     transform: scale(0);
   }
