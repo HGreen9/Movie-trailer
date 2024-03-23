@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Glitch&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Courgette&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&display=swap');
 
 * {
     margin: 0px;
@@ -33,7 +34,8 @@
 h1 {
     text-align: center;
     font-family: "Rubik Glitch", system-ui;
-    font-size: 62px;
+    /* font-size: 62px; */
+    font-size: 6em;
     color: black;
     background-color:#a7313b;
     padding: 4px;
@@ -50,37 +52,48 @@ div {
 
 h2 {
     text-align: center;
-    margin: 20px;
+    margin: 100px;
+    margin-top: 10px;
     margin-bottom: 0px;
         padding: 15px;
         background-color: #a7313b;
         border: 5px black;
         border-style: double;
-        font-size: 20px;
-        font-family: "Abril Fatface", serif;
+        font-size: 2em;
+        /* font-family: "Abril Fatface", serif; */
+        font-family: "Libre Baskerville", serif;
+  font-weight: 700;
 }
 
 p {
 margin: 20px;
 margin-bottom: 0px;
+/* margin-left: 300px;
+margin-right: 300px; */
     padding: 15px;
     background-color: #a7313b;
     border: 5px black;
     border-style: double;
-    font-size: 20px;
-    font-family: "Abril Fatface", serif;
+    /* font-size: 20px; */
+    /* font-family: "Abril Fatface", serif; */
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2em;
  
 }
 
 footer {
-    margin: 20px;
+    margin: 100px;
+    margin-top: 0%;
     margin-bottom: 0px;
         padding: 15px;
         background-color: #a7313b;
         border: 5px black;
         border-style: double;
         font-size: 20px;
-        font-family: "Abril Fatface", serif;
+        /* font-family: "Abril Fatface", serif; */
+        font-family: "Libre Baskerville", serif;
+  font-weight: 700;
     }
 
     a:link, 
@@ -95,7 +108,9 @@ a:active {
 
 figcaption {
    font-size: 20px;
-    font-family: "Abril Fatface", serif;
+    /* font-family: "Abril Fatface", serif; */
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
    }
 
 .bio {
